@@ -1,7 +1,7 @@
 ## Description
 
 ## Virtual Machine
-- Link: <http://os.unil.cloud.switch.ch/swift/v1/DataScienceLab/vm-lab-data-science.ova>
+- Link: <https://os.unil.cloud.switch.ch/swift/v1/DataScienceLab/vm-lab-data-science.ova>
 
 ## Lab Sessions
 
