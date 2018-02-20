@@ -1,1 +1,9 @@
 theme: jekyll-theme-minimal
+title: Lab in Data Science
+repository: dslab2018/dslab2018.github.io
+plugins:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
