@@ -2,6 +2,10 @@
 
 This hands-on course teaches the tools & methods used by data scientists, from researching solutions to scaling up prototypes to Spark clusters. It exposes the students to the entire data science pipeline, from data acquisition to extracting valuable insights applied to real-world problems.
 
+## Questions
+
+Public questions and discussions about the course are gathered in the [course repository](https://github.com/dslab2018/dslab2018.github.io/issues).
+
 ## Virtual Machine
 - Link: <https://os.unil.cloud.switch.ch/swift/v1/DataScienceLab/vm-lab-data-science.ova>
 
