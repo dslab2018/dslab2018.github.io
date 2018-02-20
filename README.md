@@ -1,5 +1,8 @@
 ## Description
 
+## Virtual Machine
+- Link: <http://os.unil.cloud.switch.ch/swift/v1/Data%20Science%20Lab/vm-lab-data-science.ova>
+
 ## Lab Sessions
 
 ### Week 1 - 21.02.2018
