@@ -12,7 +12,7 @@ Public questions and discussions about the course are gathered in the [course re
 ## Lab Sessions
 
 ### Week 1 - 21.02.2018 - Module 1 - Python for data scientists 1/4
-- Slides: [week 1](/slides/week1.pptx)
+- Slides: [week 1](/slides/DSLab_week1.pptx)
 - Python Quick Reference: [notebook](http://nbviewer.jupyter.org/github/justmarkham/python-reference/blob/master/reference.ipynb)
 
 ### Week 2 - 28.02.2018 - Module 1 - Python for data scientists 2/4
