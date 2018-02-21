@@ -6,7 +6,7 @@
 ## Lab Sessions
 
 ### Week 1 - 21.02.2018
-- Slides: [week 1](/slides/week1.pptx)
+- Slides: [week 1](/slides/DSLab_week1.pptx)
 
 ### Week 2
 
