@@ -17,6 +17,10 @@ Public questions and discussions about the course are gathered in the [course re
 - Exercises: [download](/notebooks/DSLab_week1_CCPython.ipynb) - [view on github](https://github.com/dslab2018/dslab2018.github.io/blob/master/notebooks/DSLab_week1_CCPython.ipynb)
 
 ### Week 2 - 28.02.2018 - Module 1 - Python for data scientists 2/4
+- Solutions to last week's exercises: [download](/notebooks/DSLab_week1_CCPython-Solution.ipynb) - [view on github](https://github.com/dslab2018/dslab2018.github.io/blob/master/notebooks/DSLab_week1_CCPython-Solution.ipynb)
+
+- Slides: [week 2](/slides/DSLab_week2.pptx)
+- Exercises: [download](/notebooks/DSLab_week2_PythonDSLibs.ipynb) - [view on github](https://github.com/dslab2018/dslab2018.github.io/blob/master/notebooks/DSLab_week2_PythonDSLibs.ipynb)
 
 ### Week 3 - 07.03.2018 - Module 1 - Python for data scientists 3/4
 
