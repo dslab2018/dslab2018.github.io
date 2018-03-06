@@ -26,6 +26,8 @@ Public questions and discussions about the course are gathered in the [course re
 
 - Docker cheat sheet to get started and as reference: https://github.com/wsargent/docker-cheat-sheet
 
+- Exercises - Set #1: [Instructions](/labs/week3/docker)
+
 ### Week 4 - 14.03.2018 - Module 1 - Python for data scientists 4/4
 
 ### Week 5 - 21.03.2018 - Module 2 - Distributed computing with Hadoop 1/2
