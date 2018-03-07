@@ -84,6 +84,9 @@ You'll notice that the image size reported by docker is above 3GB.
 Modify the `Dockerfile` and try to create the smallest possible image.
 Hints: alpine linux and `requirements.txt`.
 
+Bonus question: The tests run on the whole datasets. Can you modify them or write new tests that report
+metrics separately for train and test samples? Can you report other important metrics of the models?
+
 ## Data science competition
 
 ### 1 - Kaggle
