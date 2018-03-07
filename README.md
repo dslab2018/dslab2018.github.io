@@ -23,11 +23,12 @@ Public questions and discussions about the course are gathered in the [course re
 - Exercises - Set #2: [download](/notebooks/DSLab_week2_PythonDSLibs-Pandas_sklearn.ipynb) - [view on github](https://github.com/dslab2018/dslab2018.github.io/blob/master/notebooks/DSLab_week2_PythonDSLibs-Pandas_sklearn.ipynb)
 
 ### Week 3 - 07.03.2018 - Module 1 - Python for data scientists 3/4
+
 - Slides: [week 3](/slides/DSLab_week3.pptx)
 - Solutions to last week's exercises #1: [download](/notebooks/DSLab_week2_PythonDSLibs-NumPy_Matplotlib-Solution.ipynb) - [view on github](https://github.com/dslab2018/dslab2018.github.io/blob/master/notebooks/DSLab_week2_PythonDSLibs-NumPy_Matplotlib-Solution.ipynb)
 - Solutions to last week's exercises #2: [download](/notebooks/DSLab_week2_PythonDSLibs-Pandas_sklearn-Solution.ipynb) - [view on github](https://github.com/dslab2018/dslab2018.github.io/blob/master/notebooks/DSLab_week2_PythonDSLibs-Pandas_sklearn-Solution.ipynb)
 - Exercises: [Instructions](/labs/week3/)
-- Docker cheat sheet to get started and as reference: https://github.com/wsargent/docker-cheat-sheet
+- Docker cheat sheet to get started and as reference: <https://github.com/wsargent/docker-cheat-sheet>
 
 ### Week 4 - 14.03.2018 - Module 1 - Python for data scientists 4/4
 
