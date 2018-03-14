@@ -4,7 +4,7 @@ This hands-on course teaches the tools & methods used by data scientists, from r
 
 ## Questions
 
-Public questions and discussions about the course are gathered in the [course repository](https://github.com/dslab2018/dslab2018.github.io/issues?utf8=✓&q=is%3Aissue).
+Questions and discussions about the course are gathered on mattermost: https://mattermost-dslab.epfl.ch
 
 ## Virtual Machine
 - Link: <https://os.unil.cloud.switch.ch/swift/v1/DataScienceLab/vm-lab-data-science.ova>
