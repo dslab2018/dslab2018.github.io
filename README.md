@@ -32,6 +32,8 @@ Public questions and discussions about the course are gathered in the [course re
 
 ### Week 4 - 14.03.2018 - Module 1 - Python for data scientists 4/4
 
+- Solutions to last week's exercises: [view on github](https://github.com/dslab2018/dslab2018.github.io/blob/master/labs/week3/Solutions.md)
+
 ### Week 5 - 21.03.2018 - Module 2 - Distributed computing with Hadoop 1/2
 
 ### Week 6 - 28.03.2018 - Module 2 - Distributed computing with Hadoop 2/2
