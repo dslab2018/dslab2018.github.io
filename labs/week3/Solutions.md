@@ -15,7 +15,7 @@ $ git push
 
 There are multiple ways of solving this exercise, so don't worry if you did a bit differently, as long as you end up with something working.
 
-First let's have a look at the git repository content. You can either use the "graph" view from gitlab or 
+First let's have a look at the git repository content. You can either use the "graph" view from gitlab or
 
 ```
 git log --graph --pretty=oneline --abbrev-commit
@@ -24,7 +24,7 @@ git log --graph --pretty=oneline --abbrev-commit
 Exploring further you will notice that the commit ```30b809a``` accidentally removes two important files. You will first need to revert it.
 For doing that you have two options: either you revert the action of this commit, adding a new one that does the opposite (```git revert 30b809a2```) or you set the master branch pointer to the state just before this commit (```git reset --hard 12a6f33```). The revert is preferred here because it doesn't rewrite past history and thus doesn't need to "force push" (which is blocked by default on the master branch on gitlab).
 
-Then you will also notice the two branches. From gitlab interface or by doing ```git checkout <branch>```, you can explore the changes they apply, in this case fixing a bug and adding some input validation. This is exactly what you need to make the tests pass. So you can merge the branches on master with 
+Then you will also notice the two branches. From gitlab interface or by doing ```git checkout <branch>```, you can explore the changes they apply, in this case fixing a bug and adding some input validation. This is exactly what you need to make the tests pass. So you can merge the branches on master with
 
 ```
 git merge origin/fix_bug
@@ -35,7 +35,7 @@ You can omit the "origin/" in the branch name if you have them locally. For exam
 
 ## Dockerized Data Science
 
-You can find all the changes in the commit diff here: https://git-dslab.epfl.ch/dslab2018/week3-docker/commit/b4c3af4af71e4df11d11d376c3e45a3abe538faf
+You can find all the changes in the commit diff here: <https://git-dslab.epfl.ch/dslab2018/week3-docker/commit/b4c3af4af71e4df11d11d376c3e45a3abe538faf>
 
 ### Fix controller.py
 
@@ -80,4 +80,3 @@ Here, we updated the digits test to only report the accuracy on the test samples
 
 Note: no additional metric reported but readers can go to http://scikit-learn.org/stable/modules/classes.html#sklearn-metrics-metrics
 to find most common metrics used in machine learning.
-
