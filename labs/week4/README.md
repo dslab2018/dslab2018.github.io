@@ -14,7 +14,7 @@ Be sure to select your group.
 
 Open the notebook to find all the questions for this assignment.
 There are 4 sections totalling to 60 points.
-You can also find a version on gitlab: (TODO:link).
+You can also find a version on gitlab: <https://git-dslab.epfl.ch/dslab2018/homework1/blob/master/Assignment_DataScience_Lab_week4.ipynb>.
 
 Commit and push regularly your changes to gitlab.
 The content of the master branch of your repository at the time of the deadline will be used for
