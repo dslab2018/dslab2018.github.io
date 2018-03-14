@@ -32,6 +32,7 @@ Public questions and discussions about the course are gathered in the [course re
 
 ### Week 4 - 14.03.2018 - Module 1 - Python for data scientists 4/4
 
+- Slides presenting the graded homework: [week 4](/slides/DSLab_week4.pptx)
 - Solutions to last week's exercises: [solutions](/labs/week3/Solutions)
 
 ### Week 5 - 21.03.2018 - Module 2 - Distributed computing with Hadoop 1/2
