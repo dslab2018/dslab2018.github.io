@@ -38,6 +38,9 @@ Questions and discussions about the course are gathered on mattermost: https://m
 
 ### Week 5 - 21.03.2018 - Module 2 - Distributed computing with Hadoop 1/2
 
+- Slides: [week 5](/slides/DSLab_week5.pptx)
+- Exercises: [Instructions](labs/week5/)
+
 ### Week 6 - 28.03.2018 - Module 2 - Distributed computing with Hadoop 2/2
 
 ### Week 7 - 11.04.2018 - Module 3 - Distributed processing with Apache Spark 1/3
