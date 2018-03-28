@@ -1,4 +1,4 @@
-# Week 4: Graded Homework 2
+# Week 6: Graded Homework 2
 
 Go to <https://git-dslab.epfl.ch/dslab2018/homework2> and click on 'Fork'.
 Be sure to select your group.
