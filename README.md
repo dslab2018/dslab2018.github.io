@@ -43,7 +43,7 @@ Questions and discussions about the course are gathered on mattermost: https://m
 
 ### Week 6 - 28.03.2018 - Module 2 - Distributed computing with Hadoop 2/2
 
--  Solutions to last week's exercises: [solutions](https://raw.githubusercontent.com/dslab2018/dslab2018.github.io/master/notebooks/DSLAB-Week5-answers.json) (Right click and copy the url to import it into Zeppelin)
+-  Solutions to last week's exercises: [solutions](https://raw.githubusercontent.com/dslab2018/dslab2018.github.io/master/notebooks/DSLab-Week5-answers.json) (Right click and copy the url to import it into Zeppelin)
 - Setup instructions: [Instructions](/labs/week6/)
 
 ### Week 7 - 11.04.2018 - Module 3 - Distributed processing with Apache Spark 1/3
