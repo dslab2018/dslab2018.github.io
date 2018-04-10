@@ -44,7 +44,4 @@ Once logged in, from your Zeppelin homepage, select the __import note__ option, 
 
 You can now open the notebook in Zeppelin and start working on the exercises. As a bonus you can repeat the same exercises using the __hive__ command in a terminal.
 
-
-
-
-
+Data source in this exercise: [The twitter stream grab provided thanks to the internet archive](https://archive.org/details/archiveteam-twitter-stream-2017-11)
