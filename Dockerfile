@@ -1,6 +1,6 @@
 FROM jekyll/jekyll
 
-ADD docs/Gemfile /srv/jekyll/Gemfile
-ADD docs/Gemfile.lock /srv/jekyll/Gemfile.lock
+ADD Gemfile /srv/jekyll/Gemfile
+ADD Gemfile.lock /srv/jekyll/Gemfile.lock
 
 RUN jekyll build
