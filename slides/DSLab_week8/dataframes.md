@@ -18,3 +18,12 @@ Some key points:
 
 
 ## [DataFrame demo](./dataframe_demo.slides.html)
+
+
+## Useful Links
+
+* Lab repository: https://git-dslab.epfl.ch/dslab2018/week8-spark-continued
+* General Spark docs: http://spark.apache.org/docs
+* Spark DataFrame intro (good for a lookup of basic syntax): http://spark.apache.org/docs/latest/sql-programming-guide.html
+* Spark DataFrame Reference: http://spark.apache.org/docs/latest/api/python/pyspark.sql.html
+* Spark ML Reference: http://spark.apache.org/docs/latest/api/python/pyspark.ml#pyspark-ml-package
