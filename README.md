@@ -54,6 +54,9 @@ Questions and discussions about the course are gathered on mattermost: https://m
 
 ### Week 8 - 18.04.2018 - Module 3 - Distributed processing with Apache Spark 2/3
 
+- Slides: [week8](/slides/DSLab_week8)
+- Exercises: [Instructions](/labs/week8/)
+
 ### Week 9 - 25.04.2018 - Module 3 - Distributed processing with Apache Spark 3/3
 
 ### Week 10 - 02.05.2018 - Module 4 - Real-time data acquisition and processing 1/2
