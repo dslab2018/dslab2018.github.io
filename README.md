@@ -54,6 +54,7 @@ Questions and discussions about the course are gathered on mattermost: https://m
 
 ### Week 8 - 18.04.2018 - Module 3 - Distributed processing with Apache Spark 2/3
 
+- Solutions to last week's exercises: [solutions](https://github.com/dslab2018/dslab2018.github.io/blob/master/notebooks/DSLab_week7_gutenberg_solutions.ipynb)
 - Slides: [week8](/slides/DSLab_week8)
 - Exercises: [Instructions](/labs/week8/)
 
