@@ -61,7 +61,7 @@ Questions and discussions about the course are gathered on mattermost: https://m
 ### Week 9 - 25.04.2018 - Module 3 - Distributed processing with Apache Spark 3/3
 
 - Solutions to last week's exercises: [solutions](https://github.com/dslab2018/dslab2018.github.io/blob/master/notebooks/DSLab_week8_language_classification_solutions.ipynb)
-- Homework 3: [repository](https://git-dslab.epfl.ch/dslab2018/homework3-spark)
+- Homework 3: [repository](https://git-dslab.epfl.ch/dslab2018/homework3-spark) - start by reading the README
 
 ### Week 10 - 02.05.2018 - Module 4 - Real-time data acquisition and processing 1/2
 
