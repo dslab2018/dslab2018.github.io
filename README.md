@@ -35,7 +35,7 @@ Questions and discussions about the course are gathered on mattermost: https://m
 - Slides presenting the graded homework: [week 4](/slides/DSLab_week4.pptx)
 - Solutions to last week's exercises: [solutions](/labs/week3/Solutions)
 - Setup instructions: [Instructions](/labs/week4/)
-- Feedback on graded homework: 
+- Feedback on graded homework: [feedback](/slides/DSLab - Module 1 - Assignment - Feedback.pdf)
 
 ### Week 5 - 21.03.2018 - Module 2 - Distributed computing with Hadoop 1/2
 
