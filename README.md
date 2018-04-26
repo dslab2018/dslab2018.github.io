@@ -36,6 +36,7 @@ Questions and discussions about the course are gathered on mattermost: https://m
 - Solutions to last week's exercises: [solutions](/labs/week3/Solutions)
 - Setup instructions: [Instructions](/labs/week4/)
 - Feedback on graded homework: [Feedback](./slides/DSLab_Module1_Assignment_Feedback.pptx)
+- Solutions for the graded homework: [Notebook](https://git-dslab.epfl.ch/dslab2018/homework1/blob/solutions/SOLUTION_Assignment_DataScience_Lab_week4.ipynb)
 
 ### Week 5 - 21.03.2018 - Module 2 - Distributed computing with Hadoop 1/2
 
