@@ -67,6 +67,9 @@ Questions and discussions about the course are gathered on mattermost: https://m
 
 ### Week 10 - 02.05.2018 - Module 4 - Real-time data acquisition and processing 1/2
 
+- Slides: [week10](/slides/DSLab_week10.pptx)
+- Exercises: [Instructions](/labs/week10/)
+
 ### Week 11 - 09.05.2018 - Module 4 - Real-time data acquisition and processing 2/2
 
 ### Week 12 - 16.05.2018 - Module 5 - Final Project 1/3
