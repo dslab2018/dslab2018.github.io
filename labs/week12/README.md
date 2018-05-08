@@ -1,35 +1,32 @@
-# Week 12 Data Science Lab
+# Final Project
 
-## Final Project
+## Problem Description
 
-### Problem Description
+Imagine you are a regular user of the public transit system, and you are checking the operator's schedule to meet your friends
+for a class reunion. The choices are:
 
-You are a regular user of the public transit system, and you are checking the operator's schedule to meet your friends
-in a restaurant at 7pm. The choices are:
+1. You could leave in 10mins, and arrive with enough time to spare for gossips while waiting for the latecomers.
 
-1. You could leave in 30mins, and arrive with spare time to order an appetizer with other early comers before 7pm.
+2. You could leave now on a different route and arrive just in time for the reunion.
 
-2. You could leave in 15mins on a different route and arrive barely in time for dinner.
+Undoubtly, with only this information at hands, most people will opt for 1.
 
-Undoubtly, with only information at hands, most people will opt for option 1.
+If we now tell you that option 1 includes a connection that you must not miss, there is a 5 minutes waiting time between connections, and that we know from experience that the bus on the first leg is late 50% the time. If we also tell you that option 2 will take you there mostly on time, barring an act of god or other unforseable event. Would you still consider option 1?
 
-If we now tell you that option 1. has a connection with a short inter-connection time of 3mins, that if missed
-you will not make it in time for dessert.
+Probably not. However, most public transit applications will insist on the first option. This is because they are programmed to plan routes that offer the shortest travel times on the paper, and this without taking risks into account.
 
-In the final project of this class, we will reuse the SBB data set (TODO: which city).
+In this final project you will team up in groups of 3 minimum, ideally 4, and will propose our own public transit planner to improve on that. You will reuse the SBB data set (TODO: which city).
 
-### Grading Method
+## Grading Method
 - Routing engine (design and implementation)
 - Visualization
 - Documentation (written, oral)
 
-### Hints
+## Hints
 
 Before you get started, we offer a few hints:
 
-Reserve some time to Google up the state of the art before implementing. There is a substantial amount of work on this topic. Start with a few key words such as time-dependent
-or time-varying networks, stochastic, and uncertainty. Throw in a pinch of transit and isochrone to the recipe and voilà.
-Or you can start with the references provided below.
+Reserve some time to Google up the state of the art before implementing. There is a substantial amount of work on this topic. Look for time-dependent, or time-varying networks, stochastic route planning under uncertainty and isochrone maps. Throw in public transit here and there. Or you can start with the references provided below.
 
 You should already be acquainted with the data.
 However, as you learn about the state of the art, spend time to better understand your data before you build.
@@ -42,7 +39,7 @@ Focus on creating a sane programming environment that you can use to develop and
 Next work-out the risk-aware solution gradually, beginning with a __path-based__ approach with uncertainty between two
 selected stops, then the __policy-based__ method, and finally scale to the full public transit network under consideration.
 
-### References
+## References
 
 As a starter we offer a list of references. Feel free to look up your own.
 
@@ -50,8 +47,8 @@ As a starter we offer a list of references. Feel free to look up your own.
 * Adi Botea, Evdokia Nikolova, Michele Berlingerio, "Multi-Modal Journey Planning in the Presence of Uncertainty". ICAPS 2013.
 * S Gao, I Chabini, "Optimal routing policy problems in stochastic time-dependent networks", Transportation Research Part B: Methodological, 2006.
 
-### FAQ
+## FAQ
 
 This section will be updated with the Frequently Asked Questions during the course of this project. Please stay tuned.
 
-#### 1 - 
+### 1 - 
