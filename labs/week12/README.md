@@ -2,7 +2,11 @@
 
 ## Important dates
 
-Project report submission deadline: June 15th, 23:59.
+The project will be evaluated on the project report and an oral presentation.
+
+The deadline for the submission of the project report is June 15th, 23:59.
+
+Students can choose to present at the end of May, or mid June. Each group must indicate their availability in [Doodle](doodle.com).
 
 ## Problem Description
 
@@ -20,23 +24,25 @@ Probably not. However, most public transit applications will insist on the first
 
 In this final project you will team up in groups of 3 to 4, and will build your own public transit route planner to improve on that. You will reuse the SBB data set (from a city to be announced later).
 
-Given a desired departure, or arrival time, your route planner will compute the fastest route between two stops within a provided risk tolerance expressed as interquartiles. For instance, "what route from A to B is the fastest at least Q% of the time if I want to leave from A (resp. arrive at B) at instant T".
+Given a desired departure, or arrival time, your route planner will compute the fastest route between two stops within a provided uncertainty tolerance expressed as interquartiles. For instance, "what route from A to B is the fastest at least Q% of the time if I want to leave from A (resp. arrive at B) at instant T". Note that _uncertainty_ is a measure of a route not being feasible within the time computed by the algorithm.
 
 In order to answer this question you will need to:
 
 - Design a data representation of the public transist network for your route planning algorithm.
 
-- Build a predictive model for your public transit network representation; train the model with historical data.
+- Build a predictive model using historical arrival/departure time data for your public transit network representation.
 
 - Implement a robust route planning algorithm using this predictive model.
 
+- Implement a method to test and validate your results.
+
 Solving this problem correctly can be difficult. You are allowed a few simplifying assumptions:
 
-- There is no penalty for assuming that delays on the public transit network are uncorrelated with one another, both in time and space. 
+- There is no penalty for assuming that delays or travel times on the public transit network are uncorrelated with one another, both in time and space. 
 
-- We only consider the case where the route is known before hand, and the traveller follows the planned route to the end, or until the plan fails (e.g. miss a connection), with unkown outcome. We __do not__ consider the case where travellers can defer their decisions and adapt their journey as more information becomes available.
+- Routes are computed before-hand, and the travellers follow their planned routes to the end, or until they fail with unkown outcome (e.g. miss a connection). __Do not__ consider the case where travellers can defer their decisions and adapt their journey as more information becomes available. This routing strategy must take all alternate routes into account when computing the uncertainty levels, and is thus more difficult to implement.
 
-- The planner will not need to mitigate the traveller's inconvenience if the plan fails. 
+- The planner will not need to mitigate the traveller's inconvenience if a plan fails. For instance two routes that have a 90% chance of having a 30mins travel time are considered equivalent, even if a route has a 10% chance of having a 1h travel time and the other a 10% chance of arriving the next day.
 
 ## Grading Method
 - Routing engine (design and implementation)
