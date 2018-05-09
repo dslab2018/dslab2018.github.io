@@ -4,9 +4,15 @@
 
 The project will be evaluated on the project report and an oral presentation.
 
-The deadline for the submission of the project report is June 15th, 23:59.
+The deadline for the submission of the project report is __June 15th, 23:59__.
 
-Students can choose to present at the end of May, or mid June. Each group must indicate their availability in [Doodle](doodle.com).
+Students can choose to either present their work on the last week of May, or mid June. Each group are invited to indicate their availability in [Doodle](doodle.com).
+
+We will hold office hours in INN 211 from 16:00 to 17:00, on the following Thursdays:
+- May 17th
+- May 31st
+- June 15th
+
 
 ## Problem Description
 
@@ -28,32 +34,40 @@ Given a desired departure, or arrival time, your route planner will compute the 
 
 In order to answer this question you will need to:
 
-- Design a data representation of the public transist network for your route planning algorithm.
+- Model the public transist infrastructure for your route planning algorithm.
 
-- Build a predictive model using historical arrival/departure time data for your public transit network representation.
+- Build a predictive model using historical arrival/departure time data for your public transit network.
 
 - Implement a robust route planning algorithm using this predictive model.
 
 - Implement a method to test and validate your results.
 
-Solving this problem correctly can be difficult. You are allowed a few simplifying assumptions:
+- Implement a web visualization to demonstrate your method.
 
-- There is no penalty for assuming that delays or travel times on the public transit network are uncorrelated with one another, both in time and space. 
+Solving this problem accurately can be difficult. You are allowed a few simplifying assumptions:
 
-- Routes are computed before-hand, and the travellers follow their planned routes to the end, or until they fail with unkown outcome (e.g. miss a connection). __Do not__ consider the case where travellers can defer their decisions and adapt their journey as more information becomes available. This routing strategy must take all alternate routes into account when computing the uncertainty levels, and is thus more difficult to implement.
+- There is no penalty for assuming that delays or travel times on the public transit network are uncorrelated with one another. You will get extra credits if you do. 
 
-- The planner will not need to mitigate the traveller's inconvenience if a plan fails. For instance two routes that have a 90% chance of having a 30mins travel time are considered equivalent, even if a route has a 10% chance of having a 1h travel time and the other a 10% chance of arriving the next day.
+- One a route is computed, a traveller is expected to follow the planned routes to the end, or until it fails with unkown consequences (e.g. miss a connection). You __do not__ need to address the case where travellers are able to defer their decisions and adapt their journey "en route", as more information becomes available. This requires to consider all alternate routes (contengency plans) in the computation of the uncertainty levels, which is more difficult to implement.
+
+- The planner will not need to mitigate the traveller's inconvenience if a plan fails. Two routes with identical travel times under the uncertainty tolerance are equivalent, even if outside this uncertainty tolerance on one route has a much worse outcome than the other.
 
 ## Grading Method
-- Routing engine (design and implementation)
-- Visualization
-- Documentation (written, oral)
+
+Your solution will be evaluated as follows:
+
+- Design and method used to model the public transit network: 10
+- Design and method used to create the predictive models: 20
+- Route planning algorithm: 20
+- Validation method: 5
+- Visualization: 15
+- Documentation (written, oral): 10
 
 ## Hints
 
 Before you get started, we offer a few hints:
 
-* Reserve some time to Google-up the state of the art before implementing. There is a substantial amount of work on this topic. Look for _time-dependent_, or _time-varying networks_, _stochastic route planning under uncertainty_ and _isochrone maps_. Throw-in a bit of _public transit_ here and there. Alternatively, you could begin with the references provided below.
+* Reserve some time to Google-up the state of the art before implementing. There is a substantial amount of work on this topic. Look for _time-dependent_, or _time-varying networks_, _stochastic route planning under uncertainty_ and _isochrone maps_. You should also look in the references provided below.
 
 * You should already be acquainted with the data.
 However, as you learn more about the state of the art, spend time to better understand your data.
@@ -62,7 +76,7 @@ Anticipate what can and cannot be done from what is available to you, and plan y
 * Start small with a simple working solution and improve on it.
 In a first version, assume that all trains and busses are always sharp on time.
 Focus on creating a sane programming environment that you can use to develop and test your work as it evolves.
-Next work-out the risk-aware solution gradually, start with a simple predictive model and improve it. In addition you can test your algorithm on selected pairs of stops before generalizing to the full public transit network under consideration.
+Next, work-out the risk-aware solution gradually - start with a simple predictive model and improve it. In addition you can test your algorithm on selected pairs of stops before generalizing to the full public transit network under consideration.
 
 ## References
 
