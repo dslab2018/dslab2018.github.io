@@ -72,6 +72,9 @@ Questions and discussions about the course are gathered on mattermost: https://m
 
 ### Week 11 - 09.05.2018 - Module 4 - Real-time data acquisition and processing 2/2
 
+- Solutions to last week's exercises: [solutions](https://git-dslab.epfl.ch/dslab2018/week10-stream-processing/blob/master/Week10-stream-processing-solutions.ipynb)
+- Homework 4: [repository](https://git-dslab.epfl.ch/dslab2018/homework4) - start by reading the README
+
 ### Week 12 - 16.05.2018 - Module 5 - Final Project 1/3
 
 ### Week 13 - 23.05.2018 - Module 5 - Final Project 2/3
