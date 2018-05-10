@@ -1,5 +1,4 @@
-# DS Lab - Final Assignment
-## Multi-Modal Journey Planning in the Presence of Uncertainty
+# DS Lab - Final Assignment: Robust Journey Planning
 
 The final assignment is to be done in __groups of 3 or, preferably, 4__.
 
