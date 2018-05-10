@@ -1,18 +1,23 @@
-# Final Project
+# DS Lab - Final Assignment
+## Multi-Modal Journey Planning in the Presence of Uncertainty
+
+The final assignment is to be done in __groups of 3 or, preferably, 4__.
+
+If needed, please start by _creating a new group_ or _update a existing group_ for the final project (to be used in Dooble below).
 
 ## Important dates
 
-The project will be evaluated on the project report and an oral presentation.
+The assignment (clear, well-annotated notebook; report-like) is due on __June 15th, 23:59__.
 
-The deadline for the submission of the project report is __June 15th, 23:59__.
+The oral defense will take place either before the end of the semester or after the end of the semester (before or during exam period).
 
-Students can choose to either present their work on the last week of May, or mid June. Each group are invited to indicate their availability in [Doodle](doodle.com).
+You are invited to indicate your group's availability __using your final assignment's group name__ in [Doodle](https://doodle.com/poll/t2s5ndf8iugtgvi5). Please __do so ASAP__ to be assured a good spot. Single vote! First come, first served!
 
-We will hold office hours in INN 211 from 16:00 to 17:00, on the following Thursdays:
-- May 17th
-- May 31st
-- June 15th
+Finally, we will hold office hours in __INN 211__ on the following days:
 
+* Thursday May 17th 16:00 - 17:00
+* Tuesday May 22nd 15:00 - 16:00
+* Thursday May 31st 16:00 - 17:00
 
 ## Problem Description
 
@@ -36,7 +41,7 @@ In order to answer this question you will need to:
 
 - Model the public transist infrastructure for your route planning algorithm.
 
-- Build a predictive model using historical arrival/departure time data for your public transit network.
+- Build a predictive model using historical arrival/departure time data and potentially other sources of data for your public transit network.
 
 - Implement a robust route planning algorithm using this predictive model.
 
@@ -48,20 +53,29 @@ Solving this problem accurately can be difficult. You are allowed a few simplify
 
 - There is no penalty for assuming that delays or travel times on the public transit network are uncorrelated with one another. You will get extra credits if you do. 
 
-- One a route is computed, a traveller is expected to follow the planned routes to the end, or until it fails with unkown consequences (e.g. miss a connection). You __do not__ need to address the case where travellers are able to defer their decisions and adapt their journey "en route", as more information becomes available. This requires to consider all alternate routes (contengency plans) in the computation of the uncertainty levels, which is more difficult to implement.
+- Once a route is computed, a traveller is expected to follow the planned routes to the end, or until it fails with unknown consequences (e.g. miss a connection). You __do not__ need to address the case where travellers are able to defer their decisions and adapt their journey "en route", as more information becomes available. This requires to consider all alternative routes (contingency plans) in the computation of the uncertainty levels, which is more difficult to implement.
 
 - The planner will not need to mitigate the traveller's inconvenience if a plan fails. Two routes with identical travel times under the uncertainty tolerance are equivalent, even if outside this uncertainty tolerance on one route has a much worse outcome than the other.
 
 ## Grading Method
 
-Your solution will be evaluated as follows:
+We will grade both your Jupyter-based report (60%) and your 15-minute oral presentation (40%).
 
-- Design and method used to model the public transit network: 10
-- Design and method used to create the predictive models: 20
-- Route planning algorithm: 20
-- Validation method: 5
-- Visualization: 15
-- Documentation (written, oral): 10
+We will use the following criteria:
+
+1. The clarity and conciseness of the written and oral reports (written: 15 pts, oral: 10 pts)
+1. The formulation of the problem and its decomposition into smaller tasks (written: 5 pts, oral: 5 pts)
+1. The originality of the solution (system design, analytics, visualization) (written: 10 pts, oral: 5 pts)
+1. The quality of the solution (system design, analytics and associated implementation) (written: 20 pts, oral: 10 pts)
+1. The explanation of the pro's and con's / shortcomings of the proposed solution  (written: 10 pts, oral: 10 pts)
+
+The solution and associated implementation & explanations will be weighted across the different parts as follows:
+
+* Design and method used to model the public transit network: 10%
+* Design and method used to create the predictive models: 30%
+* Route planning algorithm: 30%
+* Validation method: 10%
+* Visualization: 20%
 
 ## Hints
 
