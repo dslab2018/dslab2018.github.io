@@ -77,7 +77,7 @@ Questions and discussions about the course are gathered on mattermost: https://m
 
 ### Week 12 - 16.05.2018 - Module 5 - Final Project 1/3
 
-- Final assignment: [repository](/labs/week12/) - start by reading the README
+- Final assignment: [repository](https://git-dslab.epfl.ch/dslab2018/final_project) - start by reading the README
 
 ### Week 13 - 23.05.2018 - Module 5 - Final Project 2/3
 
